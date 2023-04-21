@@ -1,0 +1,27 @@
+\textit{skin depth} didefinisikan sebagai jarak untuk mengurangi amplitudo Gelombang EM dengan faktor $1/e$, yakni:
+\begin{equation*}
+    \delta \equiv \frac{1}{\kappa};\ \text{dimana } \kappa \equiv \omega \sqrt{\frac{\epsilon\mu}{2}} \left[\sqrt{1+\left(\frac{\sigma}{\epsilon\omega}\right)^2}-1\right]^{1/2}
+\end{equation*}
+Untuk konduktivitas tinggi $(\sigma \gg \omega \epsilon) \Rightarrow \sigma/\epsilon \gg 1$, sehingga
+\begin{align*}
+    \delta &= \frac{1}{
+        \omega \sqrt{\dfrac{\mu \epsilon}{2}} \left[\dfrac{\sigma}{\epsilon\omega}\right]^{1/2}
+    }\\
+    &=\frac{1}{\sqrt{\dfrac{\omega^{\cancel{2}} \mu \cancel{\epsilon}\sigma}{2\cancel{\epsilon}\cancel{\omega}}}}\\
+    &=\frac{1}{\sqrt{\dfrac{\omega\mu\sigma}{2}}}\\
+    &=\sqrt{\frac{2}{\omega\mu\sigma}}\\
+    &= \sqrt{\frac{2}{2\pi f \mu \sigma}}
+\end{align*}
+diketahui nilai $f=10^{10}\si{Hz}$, $\sigma=3\times 10^7 \si{S/m}$ dan permeabilitas material $\mu=\mu_0(1+\chi_m)$, dimana suseptabilitas material perak $\chi_m=-2,4\times 10^{-5}$, atau
+\begin{align*}
+    \mu&=\mu_0(1+\chi_m)\\
+    &=4\pi\times 10^{-7}(1+-2.4\times 10^{-5})\\
+    &=1,26 \times 10^{-6}\si{N/A^2}
+\end{align*}
+subtitusi pada persamaan \textit{skin depth} sebelumnya, didapat
+\begin{align*}
+    \delta&= \sqrt{\frac{2}{2\pi (10^{10}) (1,26 \times 10^{-6}) (3\times 10^7)}}\\
+    &= \sqrt{\frac{2}{2.37\times 10^{12}}}\\
+    &=9,18 \times 10^{-7} \si{m}\\
+    &=0,918\ \si{\mu m} 
+\end{align*}

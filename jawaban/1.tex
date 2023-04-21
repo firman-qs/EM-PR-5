@@ -1,0 +1,37 @@
+Dari persamaan maxwell ke-3
+\begin{equation*}
+    \vnabla \times \vE = -\frac{\partial \vB}{\partial t}
+\end{equation*}
+Curl-kan kedua sis persamaan maxwell diatas,
+\begin{align*}
+    \vnabla \times \vnabla \times \vE &= \vnabla \times \left(-\frac{\partial \vB}{\partial t}\right)\\
+    \vnabla \times \vnabla \times \vE &=  -\frac{\partial}{\partial t}\left(\vnabla \times \vB \right) \\
+\end{align*}
+Dengan identitas vektor, bahwa $\vnabla \times \vnabla \times \vec{A}=\vnabla(\vnabla\cdot\vec{A})-\nabla^2 \vec{A}$ dan karena $\vB = \mu_0 \vH$ maka
+\begin{align*}
+    \vnabla(\vnabla\cdot\vec{E})-\nabla^2\vE=-\mu_0 \frac{\partial }{\partial t}\left(\vnabla \times \vH\right) 
+\end{align*}
+karena $\vnabla \times \vH = \frac{\partial \vD}{\partial t} + \vJ$ dengan $\vD = \epsilon_0 \vE$, maka
+\begin{align*}
+    \vnabla(\vnabla\cdot\vec{E})-\nabla^2\vE&=-\mu_0 \frac{\partial }{\partial t}\left(\vnabla \times \vH\right)\\
+    &=-\mu_0 \frac{\partial }{\partial t}\left(\frac{\partial \vD}{\partial t}+\vJ\right) \\
+    &=-\mu_0 \frac{\partial }{\partial t}\left(\epsilon_0\frac{\partial \vE}{\partial t}+\vJ\right) \\
+    \vnabla(\vnabla\cdot\underbrace{\vec{E}}_{\dfrac{\vD}{\epsilon_0}})-\nabla^2\vE&=-\mu_0\epsilon \frac{\partial^2 }{\partial t^2}\vE-\mu_0\frac{\partial }{\partial t}\vJ
+\end{align*}
+Dalam kasus ini $\vnabla \cdot \vD = \rho; \text{dimana } \rho \neq 0$, sehingga
+\begin{align*}
+    \vnabla(\vnabla\cdot\frac{1}{\epsilon_0}\vD)-\nabla^2\vE&=-\mu_0\epsilon \frac{\partial^2 }{\partial t^2}\vE-\mu_0\frac{\partial }{\partial t}\vJ\\
+    \frac{1}{\epsilon_0}\vnabla(\underbrace{\vnabla\cdot\vD}_{\rho})-\nabla^2\vE&=-\mu_0\epsilon \frac{\partial^2 }{\partial t^2}\vE-\mu_0\frac{\partial }{\partial t}\vJ\\
+\end{align*}
+karena $c=\dfrac{1}{\sqrt{\mu_0\epsilon_0}}$, maka
+\begin{align*}
+    \frac{1}{\epsilon_0}\vnabla\rho-\nabla^2\vE&=-\underbrace{\mu_0\epsilon}_{\dfrac{1}{c^2}} \frac{\partial^2 }{\partial t^2}\vE-\mu_0\frac{\partial }{\partial t}\vJ
+\end{align*}
+\textit{rearrange} persamaan diatas sehingga menjadi
+\begin{align*}
+    \nabla^2\vE-\frac{1}{c^2}\frac{\partial^2 }{\partial t^2}\vE&=\mu_0\frac{\partial}{\partial}\vJ + \frac{1}{\epsilon_0}\nabla\rho
+\end{align*}
+atau
+\begin{align*}
+    \left(\nabla^2-\frac{1}{c^2}\frac{\partial^2 }{\partial t^2}\right)\vE&=\mu_0\frac{\partial}{\partial}\vJ + \frac{1}{\epsilon_0}\nabla\rho
+\end{align*}

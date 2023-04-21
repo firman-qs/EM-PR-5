@@ -1,0 +1,115 @@
+%\documentclass[12pt]{article}
+\documentclass[12pt]{scrartcl}
+\title{EM-Pertemuan 7}
+\nonstopmode
+%\usepackage[utf-8]{inputenc}
+\usepackage{graphicx} % Required for including pictures \usepackage[figurename=Figure]{caption} \usepackage{float}    % For tables and other floats
+\usepackage{verbatim} % For comments and other
+\usepackage{amsmath}  % For math
+\usepackage{amssymb}  % For more math
+\usepackage{amsfonts} % For more math fonts
+\usepackage{fullpage} % Set margins and place page numbers at bottom center
+\usepackage{paralist} % paragraph spacing
+\usepackage{listings} % For source code
+\usepackage{subfig}   % For subfigures
+%\usepackage{physics}  % for simplified dv, and 
+\usepackage{enumitem} % useful for itemization
+\usepackage{siunitx}  % standardization of si units
+\usepackage{esint}
+\usepackage{tikz,bm} % Useful for drawing plots
+%\usepackage{tikz-3dplot}
+\usepackage{cancel}
+%%% Colours used in field vectors and propagation direction
+\definecolor{mycolor}{rgb}{1,0.2,0.3}
+\definecolor{brightgreen}{rgb}{0.4, 1.0, 0.0}
+\definecolor{britishracinggreen}{rgb}{0.0, 0.26, 0.15}
+\definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
+\definecolor{ceruleanblue}{rgb}{0.16, 0.32, 0.75}
+\definecolor{darkelectricblue}{rgb}{0.33, 0.41, 0.47}
+\definecolor{darkpowderblue}{rgb}{0.0, 0.2, 0.6}
+\definecolor{darktangerine}{rgb}{1.0, 0.66, 0.07}
+\definecolor{emerald}{rgb}{0.31, 0.78, 0.47}
+\definecolor{white}{rgb}{255, 255, 255}
+\definecolor{palatinatepurple}{rgb}{0.41, 0.16, 0.38}
+\definecolor{pastelviolet}{rgb}{0.8, 0.6, 0.79}
+
+
+% special config
+\usepackage{cleveref}
+\usepackage[many]{tcolorbox}
+\tcbset{
+    boxrule=0pt,
+    sharp corners,
+    enhanced jigsaw,
+    % drop fuzzy shadow,
+    breakable
+}
+% some auto vector etc.
+\renewcommand{\epsilon}{\varepsilon}
+\newcommand{\vnabla}{\vec{\nabla}}
+\newcommand{\vE}{\vec{E}}
+\newcommand{\vH}{\vec{H}}
+\newcommand{\vB}{\vec{B}}
+\newcommand{\vD}{\vec{D}}
+\newcommand{\vJ}{\vec{J}}
+
+\newtcolorbox{answer}{
+    beforeafter skip balanced=5pt,
+    colback={white!95!ceruleanblue},
+    borderline west={3pt}{0pt}{black!70!white}
+}
+    
+
+\begin{document}
+\renewcommand{\figurename}{Figure}
+\begin{center}
+    \hrule
+    \vspace{.4cm}
+    \textbf{\large Elektromagnetika --- PR V}
+\end{center}
+\textbf{Nama}\hspace{1mm}: Firman Qashdus Sabil \hspace\fill \textbf{Offering:}\ AC\\
+ \textbf{NIM}\hspace{3.3mm}: 210321606892 \hspace{\fill} \\%\textbf{Assignment:} Number 3 \\
+\hrule
+
+\begin{enumerate}[leftmargin=*]
+
+    \item Menurunkan persamaan gelombang EM dengan kehadiran sumber, untuk medan $\vec{E}$.
+    \begin{answer}
+        \input{jawaban/1.tex}
+    \end{answer}
+    \item Menurunkan persamaan gelombang EM dalam medium pengahantra, untuk medan $\vec{E}$ dan $\vec{H}$.
+    \begin{answer}
+        \input{jawaban/2.tex}
+    \end{answer}
+    \item Diketahui konduktivitas perak $\sigma = 3\times10^7\ \si{S/m}$ pada frekuensi gelombang mikro. Tentukan \textit{skin depth} pada frekuensi $10^{10} \si{Hz}$.
+    \begin{answer}
+        \input{jawaban/3.tex}
+    \end{answer}
+    \item Air laut memiliki konduktivitas $\sigma =3\times10^7\ \si{S/m}$ dan $\mu=\mu_0$. Tentukan nilai frekuensi ketika \textit{skin depth}-nya bernilai satu meter. 
+    \begin{answer}
+        \input{jawaban/4.tex}
+    \end{answer}
+    \item Intensitas medan listrik yang berbentuk gelombang bidang dalam vakum dinyatakan dengan persamaan sebagai berikut:
+    \begin{equation*}
+        \vec{E}=100 \cos (\omega t+8z)\hat{i}\ \si{V/m}
+    \end{equation*}
+    maka tentukan:
+    \begin{enumerate}[leftmargin=*]
+        \item Kecepatan jalar gelombang
+        \item Frekuensi gelombang EM
+        \item Panjang gelombang
+        \item Intensitas medan magnet
+    \end{enumerate}
+
+    \begin{equation*}
+        \iiint\limits_{-\infty}^{\infty} \nabla \times E = \frac{1}{4\pi \varepsilon_0}
+    \end{equation*}
+
+    % \item \input{jawaban/1}
+    % \item \input{jawaban/2}
+    % \item \input{jawaban/3}
+    % \item \input{jawaban/4}
+
+\end{enumerate}
+\end{document}
+

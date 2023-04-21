@@ -1,0 +1,81 @@
+\begin{itemize}
+    \item Untuk medan $\vE$\\
+        Dari persamaan maxwell ke-3
+        \begin{equation*}
+            \vnabla \times \vE = -\frac{\partial \vB}{\partial t}
+        \end{equation*}
+        Curl-kan kedua sisi persamaan maxwell diatas,
+        \begin{align*}
+            \vnabla \times \vnabla \times \vE &= \vnabla \times \left(-\frac{\partial \vB}{\partial t}\right)\\
+            \vnabla \times \vnabla \times \vE &=  -\frac{\partial}{\partial t}\left(\vnabla \times \vB \right) 
+        \end{align*}
+        Dengan identitas vektor, bahwa $\vnabla \times \vnabla \times \vec{A}=\vnabla(\vnabla\cdot\vec{A})-\nabla^2 \vec{A}$ dan karena $\vB = \mu_0 \vH$ maka
+        \begin{align*}
+            \vnabla(\vnabla\cdot\vec{E})-\nabla^2\vE=-\mu_0 \frac{\partial }{\partial t}\left(\vnabla \times \vH\right) 
+        \end{align*}
+        karena $\vnabla \times \vH = \frac{\partial \vD}{\partial t} + \vJ$ dengan $\vD = \epsilon_0 \vE$, maka
+        \begin{align*}
+            \vnabla(\vnabla\cdot\vec{E})-\nabla^2\vE&=-\mu_0 \frac{\partial }{\partial t}\left(\vnabla \times \vH\right)\\
+            &=-\mu_0 \frac{\partial }{\partial t}\left(\frac{\partial \vD}{\partial t}+\vJ\right) \\
+            &=-\mu_0 \frac{\partial }{\partial t}\left(\epsilon_0\frac{\partial \vE}{\partial t}+\vJ\right) \\
+            \vnabla(\vnabla\cdot\vec{E})-\nabla^2\vE&=-\mu_0\epsilon_0 \frac{\partial^2 }{\partial t^2}\vE-\mu \frac{\partial }{\partial t}\vJ
+        \end{align*}
+        Dari hukum Ohm $\vJ=\sigma \vE \neq 0$, untuk $\vE\neq 0$, sehingga persamaan diatas menjadi
+        \begin{align*}
+            \vnabla(\vnabla\cdot\underbrace{\vec{E}}_{\dfrac{\vD}{\epsilon_0}})-\nabla^2\vE&=-\mu_0\epsilon \frac{\partial^2 }{\partial t^2}\vE-\mu_0\sigma \frac{\partial }{\partial t}\vE\\
+            \frac{1}{\epsilon_0}\vnabla(\underbrace{\vnabla\cdot\vD}_{\rho})-\nabla^2\vE&=-\mu_0\epsilon \frac{\partial^2 }{\partial t^2}\vE-\mu_0\sigma \frac{\partial }{\partial t}\vE
+        \end{align*}
+        Dalam medium konduktor, resistivitas $\rho=0$ dan konduktivitas $\sigma\neq 0$, maka tersisa
+        \begin{align*}
+            -\nabla^2\vE&=-\mu_0\epsilon_0 \frac{\partial^2 }{\partial t^2}\vE-\mu_0\sigma \frac{\partial }{\partial t}\vE
+        \end{align*}
+        \textit{rearrange} persamaan diatas menjadi,
+        \begin{align*}
+            \nabla^2\vE-\mu_0\epsilon_0 \frac{\partial^2 }{\partial t^2}\vE-\mu_0\sigma \frac{\partial }{\partial t}\vE&=0\\
+            \left(\nabla^2-\mu_0\epsilon_0 \frac{\partial^2 }{\partial t^2}-\mu_0\sigma \frac{\partial }{\partial t}\right)\vE&=0
+        \end{align*}
+    \item Untuk medan $\vH$\\
+    Dari persamaan Maxwell ke-4
+    \begin{align*}
+        \vnabla \times \vH = \vJ+\frac{\partial \vD}{\partial t}
+    \end{align*}
+    Curl-kan kedua ruas persamaan
+    \begin{align*}
+        \vnabla \times\vnabla \times \vH = \vnabla \times\left(\vJ+\frac{\partial \vD}{\partial t}\right)
+    \end{align*}
+    Dengan identitas vektor, bahwa $\vnabla \times \vnabla \times \vec{A}=\vnabla(\vnabla\cdot\vec{A})-\nabla^2 \vec{A}$ dan karena $\vB = \mu_0 \vH$ maka
+    \begin{align*}
+        \vnabla(\vnabla\cdot\underbrace{\vH}_{\dfrac{1}{\mu_0}\vB})-\nabla^2\vH &= \vnabla \times \vJ+\vnabla \times\frac{\partial \vD}{\partial t}\\
+        \frac{1}{\mu_0}\vnabla(\vnabla\cdot\vB)-\nabla^2\vH &= \vnabla \times \vJ+\vnabla \times\frac{\partial \vD}{\partial t}
+    \end{align*}
+    Berdasarkan persamaan Maxwell ke-2 $\vnabla \cdot \vB=0$, maka tersisa
+    \begin{align*}
+        -\nabla^2\vH &= \vnabla \times \vJ+\vnabla \times\frac{\partial \vD}{\partial t}
+    \end{align*}
+    Karena $\vD=\epsilon_0 \vE$, maka
+    \begin{align*}
+        -\nabla^2\vH &= \vnabla \times \vJ + \frac{\partial}{\partial t}\vnabla \times (\epsilon_0 \vE)\\
+        &=\vnabla \times \vJ + \epsilon_0\frac{\partial}{\partial t}\underbrace{\vnabla \times \vE}_{\substack{-\frac{\partial \vB}{\partial t} \\ \text{Pers. Ke-3} \\\text{Maxwell}}}\\
+        &=\vnabla \times \vJ + \epsilon_0\frac{\partial}{\partial t}\left(-\frac{\partial\vB}{\partial t}\right)\\
+        &=\vnabla \times \vJ - \epsilon_0\frac{\partial^2\vB}{\partial t}
+    \end{align*}
+    karena $\vB=\mu_0 \vH$, maka
+    \begin{align*}
+        -\nabla^2\vH&=\vnabla \times \vJ - \epsilon_0\mu_0\frac{\partial^2\vH}{\partial t}
+    \end{align*}
+    Dari hukum Ohm $\vJ=\sigma \vE \neq 0$, untuk $\vE\neq 0$, sehingga persamaan diatas menjadi
+    \begin{align*}
+        -\nabla^2\vH&=\vnabla \times (\sigma\vE) - \epsilon_0\mu_0\frac{\partial^2\vH}{\partial t}\\
+        &=\sigma \underbrace{\vnabla \times \vE}_{\substack{-\frac{\partial \vB}{\partial t} \\ \text{Pers. Ke-3} \\\text{Maxwell}}} - \epsilon_0\mu_0\frac{\partial^2\vH}{\partial t}\\
+        -\nabla^2\vH&=-\sigma \frac{\partial \vB}{\partial t} - \epsilon_0\mu_0\frac{\partial^2\vH}{\partial t}
+    \end{align*}
+    karena $\vB=\mu_0 \vH$, maka
+    \begin{align*}
+        -\nabla^2\vH&=-\sigma\mu_0 \frac{\partial \vH}{\partial t} - \epsilon_0\mu_0\frac{\partial^2\vH}{\partial t}
+    \end{align*}
+    \textit{rearrange} persamaan diatas menjadi
+    \begin{align*}
+        \nabla^2\vH-\sigma\mu_0 \frac{\partial \vH}{\partial t} - \epsilon_0\mu_0\frac{\partial^2\vH}{\partial t}&=0\\
+        \left(\nabla^2-\sigma\mu_0 \frac{\partial}{\partial t} - \epsilon_0\mu_0\frac{\partial^2}{\partial t}\right)\vH&=0\\
+    \end{align*}
+\end{itemize}

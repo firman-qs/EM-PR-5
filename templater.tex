@@ -1,0 +1,37 @@
+%for two side image
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale=.45]{img/5.34}
+        \caption*{Figure 5.34}
+        \label{fig:5.34}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale=.45]{img/5.35}
+        \caption*{Figure 5.35}
+        \label{fig:5.35}
+    \end{minipage}
+\end{figure}
+
+% two side equation
+ \begin{minipage}{.7\textwidth}
+        \centering
+        \begin{align*}
+            \vec{A}(r) &=\frac{\mu_0 R^3 \sigma \omega \sin \psi}{2}\left(\int_0^\pi \frac{\cos \theta^{\prime} \sin \theta^{\prime}}{\sqrt{R^2+r^2-2 R r \cos \theta^{\prime}}} d \theta^{\prime}\right) \hat{{y}}\\
+        \end{align*}
+    \end{minipage}%
+    \vline 
+    \small
+    \begin{minipage}{.3\textwidth}
+        \hspace{0.1in}
+        {Untuk batas:}
+        \fontsize{10pt}{12pt}\selectfont
+        \begin{gather*}
+            \begin{cases}
+                \theta^{\prime}=0 \Rightarrow u =\cos 0 = 1\\
+                \theta^{\prime}=\pi \Rightarrow u =\cos \pi = -1
+            \end{cases}
+        \end{gather*}
+    \end{minipage}
