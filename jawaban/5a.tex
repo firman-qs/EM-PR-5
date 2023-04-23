@@ -1,0 +1,20 @@
+Berdasarkan persamaan ke-3 dan ke-4 dan Maxwell dalam ruang bebas sumber ($\rho=0 \text{ dan } \vJ=0$), 
+\begin{align*}
+    \Curl \vE &= -\frac{\partial \vB}{\partial t}\tag{III}\\
+    \Curl \vB &= \mu_0\epsilon_0\frac{\partial \vE}{\partial t}\tag{IV}
+\end{align*}
+maka, curl-kan kedua sisi persamaan-III
+\begin{align*}
+    \Curl (\Curl \vE) &= \Curl \left(-\frac{\partial \vB}{\partial t}\right)\\
+    \vnabla(\underbrace{\Div \vE}_{\substack{\rho=0, \Rightarrow 0}})-\nabla^2 \vE&=\Curl \left(-\frac{\partial \vB}{\partial t}\right)\\
+    -\nabla^2 \vE&=-\frac{\partial}{\partial t} (\underbrace{\Curl \vB}_{\substack{\mu_0\epsilon_0\frac{\partial \vE}{\partial t}}})\\
+    \nabla^2 \vE&=\mu_0\epsilon_0 \frac{\partial^2 \vE}{\partial t^2}
+\end{align*}
+Dalam vakum, setiap komponen Cartesian dari $\vE$ memenuhi \textbf{persamaan gelombang tiga dimensi}
+\begin{align*}
+    \nabla^2 f = \frac{1}{v^2}\frac{\partial^2 f}{\partial t^2}
+\end{align*}
+Jadi persamaan Maxwell menyiratkan bahwa ruang kosong mendukung perambatan gelombang elektromagnetik merambat dengan besar kecepatan 
+\begin{equation*}
+    v=\frac{1}{\sqrt{\mu_0\epsilon_0}}=3,00\times 10^8\ \si{m/s} = c\ \text{(kecepatan cahaya)}, \text{ke arah}\  z
+\end{equation*}

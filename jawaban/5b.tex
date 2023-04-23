@@ -1,0 +1,37 @@
+Frekuensi angular dari gelombang adalah 
+\begin{align*}
+    \omega =2\pi f &= kv\\
+    \text{maka, } \Rightarrow f &=  \frac{kv}{2 \pi}
+\end{align*}
+Berdasarkan persamaan gelombang dalam soal,
+\begin{equation*}
+    \vE = \tikzmark{Efield}100\cos{(\tikzmark{omega}\omega t+\tikzmark{wavenum}8z)\hat{i}}\ \si{S/m} 
+\end{equation*}
+\begin{tikzpicture}[remember picture,overlay]
+    % the E
+    \draw[->,>=latex]
+        ([shift={(8pt,-2pt)}]pic cs:Efield) |- 
+        ++(10pt,-25pt) 
+        node[right,text width=4cm] 
+            {$\vE_0$};
+    % the omega
+    \draw[->,>=latex]
+        ([shift={(4pt,-2pt)}]pic cs:omega) |- 
+        ++(10pt,-25pt) 
+        node[right,text width=4cm] 
+            {$2\pi f = kv$};
+    % the k
+    \draw[->,>=latex]
+        ([shift={(3pt,-2pt)}]pic cs:wavenum) |- 
+        ++(10pt,-10pt) 
+        node[right,text width=4cm] 
+            {$k$};
+\end{tikzpicture}
+\newpage 
+diketahui bahwa $k=8$, dan dari problem (a) $v=c$, maka 
+\begin{align*}
+    f&=\frac{8\ (3\times 10^8\ \si{m/s})}{2\pi}\\
+    &=\frac{1}{2}\\
+    f&=3,82\times 10^8 \ \si{Hz}
+\end{align*}
+    

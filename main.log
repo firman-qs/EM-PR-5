@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.17)  23 APR 2023 07:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.17)  23 APR 2023 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -609,50 +609,208 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.0.1'
 \tcb@lowerfitdim=\dimen282
 \tcb@upperfitdim=\dimen283
 \tcb@cur@hbadness=\count333
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.0.1'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.0.1'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.0.1'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.0.1'
+(/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 63.
+\c@tcblisting=\count334
+)) (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+ (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+ (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.0.1'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.0.1'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.0.1'
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.0.1'
+)) (/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count335
+\calc@Bcount=\count336
+\calc@Adimen=\dimen284
+\calc@Bdimen=\dimen285
+\calc@Askip=\skip80
+\calc@Bskip=\skip81
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count337
+\calc@Cskip=\skip82
+) (/usr/share/texmf-dist/tex/latex/tikzmark/tikzlibrarytikzmark.code.tex
+File: tikzlibrarytikzmark.code.tex 2022/08/24 v1.15 TikZ library for marking positions in a document
+ (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
  (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count334
+\l__color_backend_stack_int=\count338
 \l__pdf_internal_box=\box91
-) (./main.aux)
+)) (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+) (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+\l__sn_x_dim=\dimen286
+\l__sn_y_dim=\dimen287
+\l__sn_xa_dim=\dimen288
+\l__sn_ya_dim=\dimen289
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen290
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box92
+\pgfnodeparttwobox=\box93
+\pgfnodepartthreebox=\box94
+\pgfnodepartfourbox=\box95
+\pgfnodeparttwentybox=\box96
+\pgfnodepartnineteenbox=\box97
+\pgfnodeparteighteenbox=\box98
+\pgfnodepartseventeenbox=\box99
+\pgfnodepartsixteenbox=\box100
+\pgfnodepartfifteenbox=\box101
+\pgfnodepartfourteenbox=\box102
+\pgfnodepartthirteenbox=\box103
+\pgfnodeparttwelvebox=\box104
+\pgfnodepartelevenbox=\box105
+\pgfnodeparttenbox=\box106
+\pgfnodepartninebox=\box107
+\pgfnodeparteightbox=\box108
+\pgfnodepartsevenbox=\box109
+\pgfnodepartsixbox=\box110
+\pgfnodepartfivebox=\box111
+))) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen291
+\pgfdecoratedremainingdistance=\dimen292
+\pgfdecoratedinputsegmentcompleteddistance=\dimen293
+\pgfdecoratedinputsegmentremainingdistance=\dimen294
+\pgf@decorate@distancetomove=\dimen295
+\pgf@decorate@repeatstate=\count339
+\pgfdecorationsegmentamplitude=\dimen296
+\pgfdecorationsegmentlength=\dimen297
+)
+\tikz@lib@dec@box=\box112
+) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texmf-dist/tex/latex/accents/accents.sty
+Package: accents 2006/05/12 v1.4 Math Accent Tools
+\cc@skew=\dimen298
+\cc@wd=\dimen299
+\cc@code=\count340
+\cc@group=\count341
+\cc@skewchar=\count342
+) (/usr/share/texmf-dist/tex/latex/zref/zref.sty
+Package: zref 2022-04-07 v2.34 A new reference scheme for LaTeX (HO)
+ (/usr/share/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+ (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)) (/usr/share/texmf-dist/tex/latex/zref/zref-lastpage.sty
+Package: zref-lastpage 2022-04-07 v2.34 Module lastpage for zref (HO)
+ (/usr/share/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+ (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\c@abspage=\count343
+Package zref Info: New property: abspage on input line 65.
+) (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+Package zref Info: New property list: LastPage on input line 58.
+) (/usr/share/texmf-dist/tex/latex/zref/zref-user.sty
+Package: zref-user 2022-04-07 v2.34 Module user for zref (HO)
+)
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 91.
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-Package scrbase Info: activating english \abstractname on input line 63.
-Package scrbase Info: activating english \partname on input line 63.
-Package scrbase Info: activating english \figurename on input line 63.
-Package scrbase Info: activating english \tablename on input line 63.
-Package scrbase Info: activating english \contentsname on input line 63.
-Package scrbase Info: activating english \listfigurename on input line 63.
-Package scrbase Info: activating english \listtablename on input line 63.
-Package scrbase Info: activating english \refname on input line 63.
-Package scrbase Info: activating english \indexname on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+Package scrbase Info: activating english \abstractname on input line 91.
+Package scrbase Info: activating english \partname on input line 91.
+Package scrbase Info: activating english \figurename on input line 91.
+Package scrbase Info: activating english \tablename on input line 91.
+Package scrbase Info: activating english \contentsname on input line 91.
+Package scrbase Info: activating english \listfigurename on input line 91.
+Package scrbase Info: activating english \listtablename on input line 91.
+Package scrbase Info: activating english \refname on input line 91.
+Package scrbase Info: activating english \indexname on input line 91.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count335
-\scratchdimen=\dimen284
-\scratchbox=\box92
-\nofMPsegments=\count336
-\nofMParguments=\count337
+\scratchcounter=\count344
+\scratchdimen=\dimen300
+\scratchbox=\box113
+\nofMPsegments=\count345
+\nofMParguments=\count346
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count338
-\MPscratchDim=\dimen285
-\MPnumerator=\count339
-\makeMPintoPDFobject=\count340
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen301
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
 \everyMPtoPDFconversion=\toks41
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -660,46 +818,50 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count341
+\c@lstlisting=\count350
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
  (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 63.
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 91.
+ (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks42
+\inpenc@posthook=\toks43
+)
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 104.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 104.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 76.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 104.
  (/usr/share/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 ) (./jawaban/1.tex) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./jawaban/2.tex) [2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3] [4] (./jawaban/3.tex) [5] (./jawaban/4.tex) [6] [7] (./main.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./jawaban/2.tex) [2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3] [4] (./jawaban/3.tex) [5] (./jawaban/4.tex) (./jawaban/5a.tex) [6] (./jawaban/5b.tex) [7] (./jawaban/5c.tex) (./jawaban/5d.tex) [8] [9] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 29653 strings out of 476025
- 670631 string characters out of 5796532
- 1889388 words of memory out of 5000000
- 49711 multiletter control sequences out of 15000+600000
- 520893 words of font info for 65 fonts, out of 8000000 for 9000
+ 35284 strings out of 476025
+ 822303 string characters out of 5796532
+ 1891388 words of memory out of 5000000
+ 55154 multiletter control sequences out of 15000+600000
+ 528683 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,25n,106p,10673b,1093s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (7 pages, 149446 bytes).
+ 108i,25n,106p,10673b,1432s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (9 pages, 180712 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

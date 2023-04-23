@@ -1,4 +1,4 @@
-%\documentclass[12pt]{article}
+% \documentclass[12pt]{article}
 \documentclass[12pt]{scrartcl}
 \title{EM-Pertemuan 7}
 \nonstopmode
@@ -7,7 +7,7 @@
 \usepackage{verbatim} % For comments and other
 \usepackage{amsmath}  % For math
 \usepackage{amssymb}  % For more math
-\usepackage{amsfonts} % For more math fonts
+% \usepackage{amsfonts} % For more math fonts
 \usepackage{fullpage} % Set margins and place page numbers at bottom center
 \usepackage{paralist} % paragraph spacing
 \usepackage{listings} % For source code
@@ -19,6 +19,7 @@
 \usepackage{tikz,bm} % Useful for drawing plots
 %\usepackage{tikz-3dplot}
 \usepackage{cancel}
+% \usepackage[a4paper, margin=1cm ]{geometry}
 %%% Colours used in field vectors and propagation direction
 \definecolor{mycolor}{rgb}{1,0.2,0.3}
 \definecolor{brightgreen}{rgb}{0.4, 1.0, 0.0}
@@ -36,9 +37,10 @@
 
 % special config
 \usepackage{cleveref}
-\usepackage[many]{tcolorbox}
+\usepackage[most]{tcolorbox}
 \tcbset{
     boxrule=0pt,
+    before=\noindent,
     sharp corners,
     enhanced jigsaw,
     % drop fuzzy shadow,
@@ -52,13 +54,39 @@
 \newcommand{\vB}{\vec{B}}
 \newcommand{\vD}{\vec{D}}
 \newcommand{\vJ}{\vec{J}}
+\newcommand{\vr}{\vec{r}}
+\newcommand{\vk}{\vec{k}}
+\newcommand{\Curl}{\vec{\nabla}\times}
+\newcommand{\Div}{\vec{\nabla}\cdot}
 
 \newtcolorbox{answer}{
     beforeafter skip balanced=5pt,
-    colback={white!95!ceruleanblue},
-    borderline west={3pt}{0pt}{black!70!white}
+    colback={white!97!ceruleanblue},
+    borderline west={0.5pt}{0pt}{black!90!white},
 }
-    
+
+% for arrow to the equation
+\usepackage{calc}
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,calc,,arrows,shapes, positioning,decorations.pathreplacing}
+\tikzset{every picture/.style={remember picture}}
+\usepackage{accents}
+\newcommand\myubar[1]{%
+\underaccent{\bar}{#1}}
+
+% for EM wave img tikz
+\usepackage{xcolor}
+% \usepackage{physics}
+\colorlet{myblue}{black!40!blue}
+\colorlet{myred}{black!40!red}
+\colorlet{vcol}{black}
+\colorlet{Ecol}{black!90!black}
+\colorlet{EVcol}{white!10!black}
+\colorlet{Bcol}{black!70}
+
+% for facny numbering without fancyhdr for CHAD
+\usepackage[lastpage,user]{zref}
+\renewcommand\pagemark{\usekomafont{pagenumber}\textbf{\thepage}\ of 9}
 
 \begin{document}
 \renewcommand{\figurename}{Figure}
@@ -96,19 +124,22 @@
     maka tentukan:
     \begin{enumerate}[leftmargin=*]
         \item Kecepatan jalar gelombang
+        \begin{answer}
+           \input{jawaban/5a.tex} 
+        \end{answer}
         \item Frekuensi gelombang EM
+        \begin{answer}
+           \input{jawaban/5b.tex} 
+        \end{answer}
         \item Panjang gelombang
+        \begin{answer}
+           \input{jawaban/5c.tex} 
+        \end{answer}
         \item Intensitas medan magnet
+        \begin{answer}
+           \input{jawaban/5d.tex} 
+        \end{answer}
     \end{enumerate}
-
-    \begin{equation*}
-        \iint\limits_{-\infty}^{\infty} \nabla \times E = \frac{1}{4\pi \varepsilon_0}
-    \end{equation*}
-
-    % \item \input{jawaban/1}
-    % \item \input{jawaban/2}
-    % \item \input{jawaban/3}
-    % \item \input{jawaban/4}
 
 \end{enumerate}
 \end{document}
